@@ -2,7 +2,7 @@
   "name": "proyectoreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fmuzaber.github.io/",
+  "homepage": "https://fmuzaber.github.io/react-js/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
