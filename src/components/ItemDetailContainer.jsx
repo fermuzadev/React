@@ -1,9 +1,9 @@
 import {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import datos from '../data/datos.json'
-import ItemList from './ItemList'
+import ItemDetail from './ItemDetail'
 
-const ItemListContainer = props => {
+const ItemDetailContainer = () => {
     const [productos, setProductos] = useState([])
     
     const { id } = useParams()
@@ -12,19 +12,15 @@ const ItemListContainer = props => {
             setTimeout(() => resolve(datos), 2000)
         })
         data.then(res => {
-            if (id) {
-                setProductos(res.filter(producto => producto.category === id))
-            }else {
-                setProductos(res)
-            }
+                setProductos(res.find(producto => producto.id === parseInt(id)))
     })}, [id])
         return (
                 <>
                     <div className="text-center col-md-12">
-                        <h1>{props.greeting}</h1>
-                        {productos.length === 0 ? <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831" alt="Loading"/> : <ItemList productos={productos} />}
+                        <h1>Detalle</h1>
+                        {productos.length === 0 ? <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831" alt="Loading"/> : <ItemDetail productos={productos} />}
                     </div>
                 </>
         )
         }
-export default ItemListContainer
+export default ItemDetailContainer
