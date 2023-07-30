@@ -2,10 +2,11 @@ import {CartWidget} from "./CartWidget";
 import datos from '../data/datos.json'
 import { Link, NavLink } from "react-router-dom";
 
-const categorias = datos.map( producto => producto.category )
-const categ = new Set(categorias)
 
 const navBar = () => {
+    
+    const categorias = datos.map( producto => producto.category )
+    const categ = new Set(categorias)
     return (
         <>
         <div>
