@@ -1,3 +1,5 @@
+Primer proyecto en React:
+Página tributo a Pink Floyd 
 Para visitar el proyecto operativo ingrese a:
 https://primerproyectoreact--glittering-cannoli-9d3cf6.netlify.app/
 
