@@ -3,7 +3,6 @@ import { getFirestore, doc, getDoc } from 'firebase/firestore'
 import { useParams } from 'react-router-dom'
 // import datos from '../data/datos.json'
 import ItemDetail from './ItemDetail'
-
 const ItemDetailContainer = () => {
     const [productos, setProductos] = useState([])
     const { id } = useParams()
