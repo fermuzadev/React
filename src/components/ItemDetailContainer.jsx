@@ -1,19 +1,21 @@
 import {useState, useEffect} from 'react'
+import { getFirestore, doc, getDoc } from 'firebase/firestore'
 import { useParams } from 'react-router-dom'
-import datos from '../data/datos.json'
+// import datos from '../data/datos.json'
 import ItemDetail from './ItemDetail'
-
 const ItemDetailContainer = () => {
     const [productos, setProductos] = useState([])
-    
     const { id } = useParams()
+
     useEffect(() => {
-        const data = new Promise((resolve,rejected) => {
-            setTimeout(() => resolve(datos), 2000)
+        const db = getFirestore()
+        const documentoRef = doc(db, "items", id );
+        getDoc(documentoRef).then((snapshot) => {
+            setProductos(
+            {...snapshot.data(), id: snapshot.id}
+            )
         })
-        data.then(res => {
-                setProductos(res.find(producto => producto.id === parseInt(id)))
-    })}, [id])
+    }, [id])
         return (
                 <>
                     <div className="text-center col-md-12">

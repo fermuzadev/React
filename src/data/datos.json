@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Remeras",
     "name": "RemeraBlanca",
-    "price": "$5000",
+    "price": "5000",
     "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdfBhB0GS_VjFlsO1r3s8uZu0k8wT2GjKToVulicWXHX64C091ecUT8imJxpTnWrubsHfVoqKh9AjwOFCmFsaytXcWa7Hd6gkD_Hadioxtnq2Tj_brfOr64w&usqp=CAE",
     "stock": 10,
     "description": "Remera blanca Wifi siempre conectado"
@@ -12,7 +12,7 @@
     "id": 2,
     "category": "Remeras",
     "name": "RemeraNegra",
-    "price": "$8000",
+    "price": "8000",
     "img": "https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C81mwYqDYsqL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SL1500_.png",
     "stock": 15,
     "description": "Remera Negra código Hello World C"
@@ -21,7 +21,7 @@
     "id": 3,
     "category": "Remeras",
     "name": "RemeraVSC",
-    "price": "$4000",
+    "price": "4000",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/Visual_M1_e6d6fc8c-8dae-499c-9360-99e022907d4a_720x.jpg?v=1617901156",
     "stock": 20,
     "description": "Remera Negra Visual Studio Code"
@@ -30,7 +30,7 @@
     "id": 4,
     "category": "Remeras",
     "name": "RemeraFB",
-    "price": "$5000",
+    "price": "5000",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/Fb_720x.jpg?v=1621981428",
     "stock": 5,
     "description": "Remera azul Facebook"
@@ -39,7 +39,7 @@
     "id": 5,
     "category": "Buzos",
     "name": "BuzoAndroid",
-    "price": "$9000",
+    "price": "9000",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/BC_Android_M1copy_1024x1024.jpg?v=1614370600",
     "stock": 15,
     "description": "Buzo Android Canguro Negro"
@@ -48,7 +48,7 @@
     "id": 6,
     "category": "Buzos",
     "name": "BuzoJavascript",
-    "price": "$10000",
+    "price": "10000",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/JS_M2_0f60c7b8-5d21-4146-baf2-3fd7c8487818_720x.jpg?v=1614374314",
     "stock": 20,
     "description": "Buzo Negro JavaScript"
@@ -57,7 +57,7 @@
     "id": 7,
     "category": "Buzos",
     "name": "BuzoPhyton",
-    "price": "$9000",
+    "price": "9000",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/BC_Python_M2_d1433266-d95e-427a-a6f6-392a2e6c6a77_720x.jpg?v=1614374787",
     "stock": 15,
     "description": "Buzo Negro Phyton"
@@ -66,7 +66,7 @@
     "id": 8,
     "category": "Buzos",
     "name": "BuzoHTML",
-    "price": "$8500",
+    "price": "8500",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/Html2_M2_48a78a7c-b007-46f6-b6f5-881d4a301cbd_720x.jpg?v=1614374274",
     "stock": 50,
     "description": "Buzo Negro HTML"
@@ -75,7 +75,7 @@
     "id": 9,
     "category": "Camperas",
     "name": "CamperaMatrix",
-    "price": "$12000",
+    "price": "12000",
     "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/291/743/products/the-matrix-11-4386396b5d530eebbf16322725378749-640-0.webp",
     "stock": 40,
     "description": "Campera Matrix"
@@ -84,7 +84,7 @@
     "id": 10,
     "category": "Camperas",
     "name": "CamperaC#",
-    "price": "$11000",
+    "price": "11000",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/Csharp_M2_Lat_720x.jpg?v=1614315379",
     "stock": 15,
     "description": "Campera C# Negra"
@@ -93,7 +93,7 @@
     "id": 11,
     "category": "Camperas",
     "name": "CamperaAWS",
-    "price": "$13000",
+    "price": "13000",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/AWS_M2_3b05ab76-7294-4974-9d97-77c35d96efa5_720x.jpg?v=1615480109",
     "stock": 40,
     "description": "Campera Negra AWS"
@@ -102,7 +102,7 @@
     "id": 12,
     "category": "Camperas",
     "name": "CamperaCSS",
-    "price": "$12500",
+    "price": "12500",
     "img": "https://cdn.shopify.com/s/files/1/0537/9483/2552/products/Css_M2_Lat_720x.jpg?v=1614315421",
     "stock": 30,
     "description": "Remera negra CSS"
