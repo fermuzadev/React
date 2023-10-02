@@ -1,21 +1,22 @@
 import {CartWidget} from "./CartWidget";
+import datos from '../data/datos.json'
+import { Link, NavLink } from "react-router-dom";
+
+const categorias = datos.map( producto => producto.category )
+const categ = new Set(categorias)
 
 const navBar = () => {
     return (
         <>
         <div>
         <nav className="navbar bg-primary container-fluid">
-        <a className="nav-link text-light bg-primary" aria-current="page" href="./">Dos Pájaros Volando</a>
+        <Link className="nav-link text-light bg-primary" aria-current="page" to="/">Dos Pájaros Volando</Link>
         <ul className="nav justify-content-center bg-primary ">
-            <li className="nav-item">
-                <a className="nav-link text-light" href="./Remeras">Remeras</a>
+            {[...categ].map(producto => (
+            <li key={producto} className="nav-item">
+                <NavLink key={producto} className="nav-link text-light" to={`/category/${producto}`}>{producto}</NavLink>
             </li>
-            <li className="nav-item">
-                <a className="nav-link text-light" href="./Buzos">Buzos</a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link text-light"href="./Camperas">Camperas</a>
-            </li>
+            ))}
             <CartWidget className='text-light' /> 
         </ul>
         </nav>
