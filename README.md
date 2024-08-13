@@ -10,7 +10,7 @@ React E-Commerce (REACT.JS, FIRESTORE, BOOTSTRAP, LOCALSTORAGE, ReactHooks)
 Branch proyectofinal
 
 Deploy:
-https://fermuzadev.github.io/React/
+https://fernandomuzaber.github.io/React/
 </div>
 
-[Gif React Segunda Entrega _GH.webm](https://github.com/fermuzadev/ReactJs/assets/104037681/0b37fdd9-317c-4e41-b086-eaa3aa2e896d)
+[Gif React Segunda Entrega _GH.webm](https://github.com/fernandomuzaber/ReactJs/assets/104037681/0b37fdd9-317c-4e41-b086-eaa3aa2e896d)
